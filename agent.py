@@ -20,11 +20,11 @@ class LearningAgent(Agent):
         self.success_rate = 0 # Success Rate = 1 - (Number of Failure / Number of Trials)
         self.possible_action = [None, 'forward', 'left', 'right']
         self.Q = {}
-        for i in ['green', 'red']: #light
-            for j in ['forward', 'left', 'right']: #next_waypoint
-                for k in [None, 'forward', 'left', 'right']: #oncoming
-                    for l in [None, 'forward', 'left', 'right']: #left
-                        #initialize Q with traffic policies
+        for i in ['green', 'red']: # Light
+            for j in ['forward', 'left', 'right']: # Next_waypoint
+                for k in [None, 'forward', 'left', 'right']: # Oncoming
+                    for l in [None, 'forward', 'left', 'right']: # Left
+                        # Initialize Q with traffic policies
                         #self.Q[(i,j,k,l)] = [random.randint(0,5)] * 4
                         if i == 'green':
                             if k == 'forward':
