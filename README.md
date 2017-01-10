@@ -16,8 +16,16 @@ Open `smartcab/agent.py` and implement `LearningAgent`. Follow `TODO`s for furth
 
 Make sure you are in the top-level project directory `smartcab/` (that contains this README). Then run:
 
-```python smartcab/agent.py```
+```
+python smartcab/agent.py
+```
 
 OR:
 
-```python -m smartcab.agent```
+```
+python -m smartcab.agent
+```
+
+## License
+
+The contents of this repository are covered under the [MIT License](LICENSE).
